@@ -1,9 +1,4 @@
-
-1. 作用域算符(`::`)
-2. 输出运算符(`<<`)
-3. 输入运算符(`>>`)
-4. 操纵符(`Manipulator`): `endl`
-
+## 输入输出操作
 ```
 std::cout << "Enter two numbers: " << std::endl; 
 ```
