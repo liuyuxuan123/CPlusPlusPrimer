@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3176901A229B950100910DB9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31769019229B950100910DB9 /* main.cpp */; };
 		31C3592B229A3CA400D16806 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C3592A229A3CA400D16806 /* main.cpp */; };
 		31C35938229A3CF400D16806 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C35937229A3CF400D16806 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		31769015229B950100910DB9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		31C35925229A3CA400D16806 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		31769017229B950100910DB9 /* 2. 变量和基本类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2. 变量和基本类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31769019229B950100910DB9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		31C35927229A3CA400D16806 /* C++Primer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++Primer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C3592A229A3CA400D16806 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		31C35935229A3CF400D16806 /* DataTypes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataTypes; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +53,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		31769014229B950100910DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31C35924229A3CA400D16806 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,11 +77,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31769018229B950100910DB9 /* 2. 变量和基本类型 */ = {
+			isa = PBXGroup;
+			children = (
+				31769019229B950100910DB9 /* main.cpp */,
+			);
+			path = "2. 变量和基本类型";
+			sourceTree = "<group>";
+		};
 		31C3591E229A3CA400D16806 = {
 			isa = PBXGroup;
 			children = (
 				31C35929229A3CA400D16806 /* C++Primer */,
-				31C35936229A3CF400D16806 /* DataTypes */,
+				31C35936229A3CF400D16806 /* 1. 开始 */,
+				31769018229B950100910DB9 /* 2. 变量和基本类型 */,
 				31C35928229A3CA400D16806 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +100,7 @@
 			children = (
 				31C35927229A3CA400D16806 /* C++Primer */,
 				31C35935229A3CF400D16806 /* DataTypes */,
+				31769017229B950100910DB9 /* 2. 变量和基本类型 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,18 +113,35 @@
 			path = "C++Primer";
 			sourceTree = "<group>";
 		};
-		31C35936229A3CF400D16806 /* DataTypes */ = {
+		31C35936229A3CF400D16806 /* 1. 开始 */ = {
 			isa = PBXGroup;
 			children = (
 				31C3593F229A524100D16806 /* README.md */,
 				31C35937229A3CF400D16806 /* main.cpp */,
 			);
-			path = DataTypes;
+			path = "1. 开始";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		31769016229B950100910DB9 /* 2. 变量和基本类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3176901B229B950100910DB9 /* Build configuration list for PBXNativeTarget "2. 变量和基本类型" */;
+			buildPhases = (
+				31769013229B950100910DB9 /* Sources */,
+				31769014229B950100910DB9 /* Frameworks */,
+				31769015229B950100910DB9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2. 变量和基本类型";
+			productName = "2. 变量和基本类型";
+			productReference = 31769017229B950100910DB9 /* 2. 变量和基本类型 */;
+			productType = "com.apple.product-type.tool";
+		};
 		31C35926229A3CA400D16806 /* C++Primer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31C3592E229A3CA400D16806 /* Build configuration list for PBXNativeTarget "C++Primer" */;
@@ -139,6 +185,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = yuxuanliu;
 				TargetAttributes = {
+					31769016229B950100910DB9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					31C35926229A3CA400D16806 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -161,11 +210,20 @@
 			targets = (
 				31C35926229A3CA400D16806 /* C++Primer */,
 				31C35934229A3CF400D16806 /* DataTypes */,
+				31769016229B950100910DB9 /* 2. 变量和基本类型 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		31769013229B950100910DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3176901A229B950100910DB9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31C35923229A3CA400D16806 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,6 +243,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		3176901C229B950100910DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P6TC657TC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3176901D229B950100910DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P6TC657TC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		31C3592C229A3CA400D16806 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -335,6 +411,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3176901B229B950100910DB9 /* Build configuration list for PBXNativeTarget "2. 变量和基本类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3176901C229B950100910DB9 /* Debug */,
+				3176901D229B950100910DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		31C35922229A3CA400D16806 /* Build configuration list for PBXProject "C++Primer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
