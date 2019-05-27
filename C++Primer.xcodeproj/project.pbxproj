@@ -43,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		314D93FE229B9F8A00729255 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		31769017229B950100910DB9 /* 2. 变量和基本类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2. 变量和基本类型"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31769019229B950100910DB9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		31C35927229A3CA400D16806 /* C++Primer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++Primer"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +81,7 @@
 		31769018229B950100910DB9 /* 2. 变量和基本类型 */ = {
 			isa = PBXGroup;
 			children = (
+				314D93FE229B9F8A00729255 /* README.md */,
 				31769019229B950100910DB9 /* main.cpp */,
 			);
 			path = "2. 变量和基本类型";
