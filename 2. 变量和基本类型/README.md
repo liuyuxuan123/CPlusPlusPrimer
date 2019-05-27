@@ -138,4 +138,5 @@ l or L | `long float`
 
 #### 布尔字面量和指针字面量
 **`true和false是布尔型的字面值`**
+
 **`nullptr是指针字面值`**
