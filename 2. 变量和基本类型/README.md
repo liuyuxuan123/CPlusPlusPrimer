@@ -115,6 +115,23 @@ long double|8|1.7*10^-308~1.7*10^308
 - `换行符`          `\n`      
 - `换行符`          `\n`      
 
+#### 指定字面值的类型
+
+前缀|含义|类型
+--|:--|:--:
+u|Unicode 16字符|`char16_t`
+U|Unicode 32字符|`chae32_t`
+L|宽字符|`wchar_t`
+u8|UTF-8|`char`
+
+整数类型后缀|最小匹配类型
+--|:--:
+u or U|`unsigned`
+l or L | `long`
+ll or LL | `long long`
 
 
-
+浮点类型后缀|类型
+--|:--:
+f or F | `float`
+l or L | `long float`
