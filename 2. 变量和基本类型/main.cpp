@@ -13,4 +13,5 @@ int main(int argc, const char * argv[]) {
         std::cout << u - 1 << std::endl;
     }
     return 0;
+    
 }
