@@ -119,22 +119,22 @@ long double|8|1.7*10^-308~1.7*10^308
 
 前缀|含义|类型
 --|:--|:--:
-u|Unicode 16字符|`char16_t`
-U|Unicode 32字符|`chae32_t`
-L|宽字符|`wchar_t`
-u8|UTF-8|`char`
+`u`|Unicode 16字符|`char16_t`
+`U`|Unicode 32字符|`chae32_t`
+`L`|宽字符|`wchar_t`
+`u8`|UTF-8|`char`
 
 整数类型后缀|最小匹配类型
 --|:--:
-u or U|`unsigned`
-l or L | `long`
-ll or LL | `long long`
+`u or U`|`unsigned`
+`l or L `| `long`
+`ll or LL`| `long long`
 
 
 浮点类型后缀|类型
 --|:--:
-f or F | `float`
-l or L | `long float`
+`f or F`| `float`
+`l or L`| `long float`
 
 #### 布尔字面量和指针字面量
 **`true和false是布尔型的字面值`**
