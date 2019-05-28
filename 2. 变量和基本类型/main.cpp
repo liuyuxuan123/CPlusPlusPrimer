@@ -10,8 +10,10 @@
 
 int main(int argc, const char * argv[]) {
 
-    int ival = 1024;
-    int& refVal = ival;
+    int i = 1024, i2 = 2048;
+    int &r = i;
+    int &r2(i2);
     
-    std::cout << typeid(refVal).name() << " " << typeid(ival).name() << std::endl;
+    std::cout << r2 << std::endl;
+    
 }
