@@ -9,9 +9,9 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    for(unsigned int u = 11;u > 0; u --){
-        std::cout << u - 1 << std::endl;
-    }
-    return 0;
+
+    int ival = 1024;
+    int& refVal = ival;
     
+    std::cout << typeid(refVal).name() << " " << typeid(ival).name() << std::endl;
 }
