@@ -8,8 +8,24 @@
 
 #include <iostream>
 
+
+class test {
+public:
+    std::string s1(){
+        return s2();
+    }
+    
+    std::string s2(){
+        return "Test String 🐮";
+    }
+    
+    std::string s3 = "XXX";
+};
+
 int main(int argc, const char * argv[]) {
     // insert code here...
+    test atest;
+    std::cout << atest.s1() << std::endl;
     std::cout << "Hello, World!\n";
     return 0;
 }
