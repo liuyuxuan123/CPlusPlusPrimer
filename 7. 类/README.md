@@ -112,6 +112,32 @@ private:
     double revenue = 0.0;
 };
 ```
+&emsp;既然`Sales_data`的数据成员是`pivate`的，我们的`read`，`print`和`add`函数也就无法正常编译了，这是因为尽管这几个函数是类的接口的一部分，但它们不是类的成员。类可以允许其他类或者函数访问它的非公有成员，方法是令其他类或者函数成为它的`友元(friend)`。
+
+```
+class Sales_data {
+    friend Sales_data add(const Sales_data&, const Sales_data&);
+    friend std::istream &read(std::istream&, Sales_data&);
+    friend std::ostream &print(std::ostream&, const Sales_data&);
+public:
+    Sales_data() = default;
+    Sales_data(const std::string &s): bookNo(s) {   }
+    Sales_data(const std::string &s, unsigned n, double p): bookNo(s), units_sold(n),revenue(p * n){    }
+    Sales_data(std::istream &);
+    std::string isbn() const {  return bookNo;  }
+    Sales_data& combine(const Sales_data&);
+    double avg_price() const;
+private:
+    std::string bookNo;
+    unsigned units_sold = 0;
+    double revenue = 0.0;
+};
+```
+&emsp;友元声明只能出现在类定义的内部，但是类内部出现的具体位置不限。友元不是类的成员也不受它所在区域访问控制级别的约束。`一般来说，最好在类定义开始或者结束前的位置集中声明友元`。
+
+
+`封装有两个重要的优点`：
+
 
 
 ## 类的其他特性
