@@ -11,21 +11,39 @@
 
 class test {
 public:
-    std::string s1(){
-        return s2();
+    test(){
+        
     }
-    
-    std::string s2(){
-        return "Test String 🐮";
+    int intValue;
+    double doubleValue;
+    std::string stringValue;
+};
+
+struct Sales_data {
+    Sales_data() = default;
+    Sales_data(const std::string &s): bookNo(s) {
+        this->units_sold += 10;
+        this->units_sold += 10;
+        this->units_sold += 10;
+        this->units_sold += 10;
+        this->units_sold += 10;
+        std::cout << bookNo << " <--> " << this->units_sold << std::endl;
     }
+    Sales_data(const std::string &s, unsigned n, double p): bookNo(s), units_sold(n),revenue(p * n){    }
+    Sales_data(std::istream &);
     
-    std::string s3 = "XXX";
+    std::string isbn() const {  return bookNo;  }
+    Sales_data& combine(const Sales_data&);
+    double avg_price() const;
+    std::string bookNo;
+    unsigned units_sold = 0;
+    double revenue = 0.0;
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    test atest;
-    std::cout << atest.s1() << std::endl;
+    Sales_data testData("1000");
+    std::cout << testData.bookNo << " " << testData.units_sold << std::endl;
     std::cout << "Hello, World!\n";
     return 0;
 }
