@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3176901A229B950100910DB9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31769019229B950100910DB9 /* main.cpp */; };
+		317913E9229D500600016D00 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 317913E8229D500600016D00 /* main.cpp */; };
 		31C3592B229A3CA400D16806 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C3592A229A3CA400D16806 /* main.cpp */; };
 		31C35938229A3CF400D16806 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C35937229A3CF400D16806 /* main.cpp */; };
+		31D099BF229D9A88007B580C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31D099BE229D9A88007B580C /* main.cpp */; };
+		31DBC878229CF9200091376A /* constValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31DBC877229CF9200091376A /* constValue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		31769015229B950100910DB9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		317913E4229D500600016D00 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -40,21 +52,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		31D099BA229D9A88007B580C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		314D93FE229B9F8A00729255 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		31769017229B950100910DB9 /* 2. 变量和基本类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2. 变量和基本类型"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31769019229B950100910DB9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		317913E6229D500600016D00 /* 14. 重载运算与类型转换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14. 重载运算与类型转换"; sourceTree = BUILT_PRODUCTS_DIR; };
+		317913E8229D500600016D00 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		317913ED229D501900016D00 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		31C35927229A3CA400D16806 /* C++Primer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++Primer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C3592A229A3CA400D16806 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		31C35935229A3CF400D16806 /* DataTypes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataTypes; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C35937229A3CF400D16806 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		31C3593F229A524100D16806 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		31D099BC229D9A88007B580C /* 7. 类 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7. 类"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D099BE229D9A88007B580C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		31D099C3229D9AA3007B580C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		31DBC877229CF9200091376A /* constValue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = constValue.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		31769014229B950100910DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317913E3229D500600016D00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,6 +110,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31D099B9229D9A88007B580C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,8 +125,18 @@
 			children = (
 				314D93FE229B9F8A00729255 /* README.md */,
 				31769019229B950100910DB9 /* main.cpp */,
+				31DBC877229CF9200091376A /* constValue.cpp */,
 			);
 			path = "2. 变量和基本类型";
+			sourceTree = "<group>";
+		};
+		317913E7229D500600016D00 /* 14. 重载运算与类型转换 */ = {
+			isa = PBXGroup;
+			children = (
+				317913ED229D501900016D00 /* README.md */,
+				317913E8229D500600016D00 /* main.cpp */,
+			);
+			path = "14. 重载运算与类型转换";
 			sourceTree = "<group>";
 		};
 		31C3591E229A3CA400D16806 = {
@@ -93,6 +145,8 @@
 				31C35929229A3CA400D16806 /* C++Primer */,
 				31C35936229A3CF400D16806 /* 1. 开始 */,
 				31769018229B950100910DB9 /* 2. 变量和基本类型 */,
+				31D099BD229D9A88007B580C /* 7. 类 */,
+				317913E7229D500600016D00 /* 14. 重载运算与类型转换 */,
 				31C35928229A3CA400D16806 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +157,8 @@
 				31C35927229A3CA400D16806 /* C++Primer */,
 				31C35935229A3CF400D16806 /* DataTypes */,
 				31769017229B950100910DB9 /* 2. 变量和基本类型 */,
+				317913E6229D500600016D00 /* 14. 重载运算与类型转换 */,
+				31D099BC229D9A88007B580C /* 7. 类 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +180,15 @@
 			path = "1. 开始";
 			sourceTree = "<group>";
 		};
+		31D099BD229D9A88007B580C /* 7. 类 */ = {
+			isa = PBXGroup;
+			children = (
+				31D099BE229D9A88007B580C /* main.cpp */,
+				31D099C3229D9AA3007B580C /* README.md */,
+			);
+			path = "7. 类";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +207,23 @@
 			name = "2. 变量和基本类型";
 			productName = "2. 变量和基本类型";
 			productReference = 31769017229B950100910DB9 /* 2. 变量和基本类型 */;
+			productType = "com.apple.product-type.tool";
+		};
+		317913E5229D500600016D00 /* 14. 重载运算与类型转换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 317913EC229D500600016D00 /* Build configuration list for PBXNativeTarget "14. 重载运算与类型转换" */;
+			buildPhases = (
+				317913E2229D500600016D00 /* Sources */,
+				317913E3229D500600016D00 /* Frameworks */,
+				317913E4229D500600016D00 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14. 重载运算与类型转换";
+			productName = "14. 重载运算与类型转换";
+			productReference = 317913E6229D500600016D00 /* 14. 重载运算与类型转换 */;
 			productType = "com.apple.product-type.tool";
 		};
 		31C35926229A3CA400D16806 /* C++Primer */ = {
@@ -178,6 +260,23 @@
 			productReference = 31C35935229A3CF400D16806 /* DataTypes */;
 			productType = "com.apple.product-type.tool";
 		};
+		31D099BB229D9A88007B580C /* 7. 类 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31D099C2229D9A88007B580C /* Build configuration list for PBXNativeTarget "7. 类" */;
+			buildPhases = (
+				31D099B8229D9A88007B580C /* Sources */,
+				31D099B9229D9A88007B580C /* Frameworks */,
+				31D099BA229D9A88007B580C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7. 类";
+			productName = "7. 类";
+			productReference = 31D099BC229D9A88007B580C /* 7. 类 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,10 +289,16 @@
 					31769016229B950100910DB9 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					317913E5229D500600016D00 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					31C35926229A3CA400D16806 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					31C35934229A3CF400D16806 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					31D099BB229D9A88007B580C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -213,6 +318,8 @@
 				31C35926229A3CA400D16806 /* C++Primer */,
 				31C35934229A3CF400D16806 /* DataTypes */,
 				31769016229B950100910DB9 /* 2. 变量和基本类型 */,
+				317913E5229D500600016D00 /* 14. 重载运算与类型转换 */,
+				31D099BB229D9A88007B580C /* 7. 类 */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +330,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3176901A229B950100910DB9 /* main.cpp in Sources */,
+				31DBC878229CF9200091376A /* constValue.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317913E2229D500600016D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317913E9229D500600016D00 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +358,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31D099B8229D9A88007B580C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D099BF229D9A88007B580C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -255,6 +379,24 @@
 			name = Debug;
 		};
 		3176901D229B950100910DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P6TC657TC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		317913EA229D500600016D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P6TC657TC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		317913EB229D500600016D00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -410,6 +552,24 @@
 			};
 			name = Release;
 		};
+		31D099C0229D9A88007B580C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P6TC657TC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31D099C1229D9A88007B580C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P6TC657TC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,6 +578,15 @@
 			buildConfigurations = (
 				3176901C229B950100910DB9 /* Debug */,
 				3176901D229B950100910DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		317913EC229D500600016D00 /* Build configuration list for PBXNativeTarget "14. 重载运算与类型转换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317913EA229D500600016D00 /* Debug */,
+				317913EB229D500600016D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -445,6 +614,15 @@
 			buildConfigurations = (
 				31C3593A229A3CF400D16806 /* Debug */,
 				31C3593B229A3CF400D16806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31D099C2229D9A88007B580C /* Build configuration list for PBXNativeTarget "7. 类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D099C0229D9A88007B580C /* Debug */,
+				31D099C1229D9A88007B580C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,12 +8,8 @@
 
 #include <iostream>
 
+extern  int bufSize;
 int main(int argc, const char * argv[]) {
-
-    int i = 1024, i2 = 2048;
-    int &r = i;
-    int &r2(i2);
-    
-    std::cout << r2 << std::endl;
-    
+    bufSize += 10;
+    std::cout << bufSize << std::endl;
 }
